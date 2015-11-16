@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; background:#fff; font:normal 13px Arial, Helvetica, sans-serif; color:#323232;}
+img{ border:0;}
+h1{color:#323232; font:14px normal Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#logo-menu{ background:url(images/bgmenu.jpg) left top repeat-x; height:120px; width:100%;}
+#widthlogo-menu{ width:1000px; margin:0 auto; padding:0;}
+.logo{ float:left; width:7%;}
+.menu{ float:right; width:80%;}
+.menu ul{list-style:none; padding:50px 0 0 0; margin:0 auto; font: normal 14px Arial, Helvetica, sans-serif;}
+.menu li{display:block; float:left; padding:5px 18px; margin:0;}
+.menu li a{color:#333333; text-decoration: none;}
+.menu li a:hover{color:#f90808; text-decoration: none;}
+#slide{ clear:both; width:1000px; margin:0 auto; padding:10px 0 0 0;}
+.imgslide{ float:left; width:800px; padding:0; margin:0;}
+* html .imgslide, *+html .imgslide{ float:left; width:800px; padding:0; margin:25px 0 0 0;}
+.title{ float:right; width:200px; height:317px; background:#323232; color:#fff; padding:0; margin:0;}
+.title ul{list-style:none; padding:0; margin:0 auto; font: normal 14px Arial, Helvetica, sans-serif;}
+.title li{display:block; padding:10px 0 0 10px; margin:5px 10px; border-bottom:1px dotted #fff;}
+.title li a{color:#fff; text-decoration: none;}
+.title li a:hover{color:#f90808; text-decoration: none;}
+#contant{ clear:both; width:1000px; margin:0 auto; padding:10px; text-align:center;} 
+#contant p{ text-align:justify;}
+#contant h1{ padding:10px;}
+#footer{ clear:both; background:#323232; font:12px normal Arial, Helvetica, sans-serif;}
+.txtfooter{ text-align:center; width:1000px; margin:0 auto; padding:10px 0; color:#adadad;}

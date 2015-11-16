@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0; background:url(images/bg.jpg) left top repeat; font: normal 13px Arial, Helvetica, sans-serif; color:#333333;}
+img{ border:0;}
+h1{ font:16px normal Arial, Helvetica, sans-serif; color:#f7892f; padding:0; margin:0;}
+h2{ font:15px normal Arial, Helvetica, sans-serif; color:#000;}
+h3{ font:15px normal Arial, Helvetica, sans-serif; color: #FF0000; padding:10px 0 0 0; margin:0;}
+p{ padding:0; margin:0;}
+.clear{ clear:both;}
+#logo-menu{ width:100%; height:38px; margin:90px 0 0 0; padding:0 0 0 0; background: url(images/bgmenu.png) left top repeat-x; z-index:1; position: absolute;}
+#sizelogo-menu{ width:990px; margin:0 auto; padding:0;}
+.logo{ float:left; width:18%; position:relative; margin:-80px 0 0 0; padding:0;}
+.menu{ float:right; width:70%; text-align:right; padding:10px 0 0 0; margin:0;}
+.menu ul{ width:811px; list-style:none; padding:5px 0 0 0; margin:0; font:normal 16px Arial, Helvetica, sans-serif; text-align:right;}
+.menu li{display:block; float:left; padding:0 30px; margin:0 auto; text-align: right;}
+.menu li a{ color:#fff; text-decoration:none;}
+.menu li a:hover{ color:#000; text-decoration:none;}
+#slide{ padding:0; margin:0 auto; position: relative; z-index:0; width:1263px;}
+#boxbook{ padding:0; margin:0 auto; width:990px; }
+.boxbook{border-radius: 10px; /* IE9 */-moz-border-radius: 10px; /* firefox */-webkit-border-radius: 10px; /* Safari/Chrome */-o-border-radius: 10px; /* Opera */ background:#f7892f; position: absolute; z-index:10; margin:-130px 0 0 0; width:990px; padding:15px; -moz-box-shadow: 3px 3px 3px #1c1c1c;  -webkit-box-shadow: 3px 3px 3px #1c1c1c;  box-shadow: 3px 3px 3px #1c1c1c;}
+.linebook{ border:1px solid #fff; padding:20px 30px; text-align:left;}
+.boxcoures{ width:100%; padding:0; margin:0;}
+.boxcoures ul{ width:100%; list-style:none; padding:0; margin:0;}
+.boxcoures li{display:block; float:left; padding:10px 12px; margin:0 10px; width:45%; background:#fff;}
+.boxcouresleft{ float:left; width:50%; text-align:left;}
+.boxcouresright{ float:right; width:50%; text-align:left;}
+.button_example{ text-align:center; width:90%; margin:1% 0; padding:0;
+                 border:2px solid #ffad41; font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+                 background-color: #ffc579;
+}
+
+.button_example:hover{
+    width:90%;
+    border:2px solid #ff9913;
+    background-color: #ffaf46;
+    color:#000;
+}
+#contant{ width:990px; padding:10px 0; margin:0 auto; clear:both;}
+#footer{ background:#b1b1b1; width:1243px; margin:0 auto; padding:10px; color:#f0f0f0;}
+#footer ul{ width:811px; list-style:none; padding:5px 0 0 0; margin:0; font:normal 16px Arial, Helvetica, sans-serif; text-align:right;}
+#footer li{display:block; float:left; padding:0 50px 0 0; margin:0 auto; text-align: right;}
+#footer li a{ color:#fff; text-decoration:none;}
+#footer li a:hover{ color:#000; text-decoration:none;}
+#footer a{ color:#fff; text-decoration:none;}
+#footer a:hover{ color:#000; text-decoration:none;}

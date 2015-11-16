@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-zA-Z0-9-zก-ฮ0-๙\-]+).html$ /?controllers=$1 [L] 
+
+RewriteRule ^([a-zA-Z0-9-zก-ฮ0-๙\-]+)/([a-zA-Z0-9-zก-ฮ0-๙\-]+).html$ /?controllers=$1&id=$2 [L]
+

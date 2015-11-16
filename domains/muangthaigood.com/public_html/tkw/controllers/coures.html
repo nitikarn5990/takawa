@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>COURES CHANG COOKING & RESTAURANT</title>
+<meta name="keywords" content="COURES CHANG COOKING & RESTAURANT">
+<meta name="description" content="COURES CHANG COOKING & RESTAURANT">
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="dist/slippry.min.js"></script>
+		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+		<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="dist/slippry.css">
+</head>
+
+<body>
+<div id="logo-menu">
+  <div id="sizelogo-menu">
+	  <div class="logo"><a href=""><img src="images/logo.png"  width="122" height="170" /></a></div>
+   	<div class="menu">
+    	<ul>
+        	<li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">COURES</a></li>
+            <li><a href="">GUESTBOOK</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+<div id="slide">
+	<article class="demo_block">
+				<ul id="demo1">
+					<li><a href="#slide1"><img src="img/slide.jpg" ></a></li>
+					<li><a href="#slide2"><img src="img/slide1.jpg" ></a></li>
+				</ul>
+			</article>
+
+		<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					transition: 'fade',
+					useCSS: true,
+					speed: 1000,
+					pause: 3000,
+					auto: true,
+					preload: 'visible'
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+</div>
+<div id="boxbook">
+  <div class="boxbook">
+   	  <div class="linebook"><img src="images/imgbook.jpg" width="822" height="31" /></div>
+  </div>
+</div>
+<div id="contant">
+  <h1>COURES  Chang Cooking & Restaurant</h1>
+  <div class="boxcoures">
+  	<ul>
+    	<li>
+        	<div class="boxcouresleft"><img src="images/coures1.jpg" width="200"/></div>
+            <div class="boxcouresright">
+            	<h2>1. Full day course</h2>
+  				<p>Pick-up time: 08:30-09:00</p>
+  				<p>Time: 10:00-15:00</p>
+  				<p>Choose 6 items from the menu</p>
+			  	<h3>Price : 1000 Baht/Serson</h3>
+                <a class="button_example" href="#">BOOK</a>
+            </div>
+        </li>
+        <li>
+        	<div class="boxcouresleft"><img src="images/coures1.jpg" width="200"/></div>
+        	<div class="boxcouresright">
+            	<h2>2. Full day course</h2>
+  				<p>Pick-up time: 08:30-09:00</p>
+  				<p>Time: 10:00-15:00</p>
+  				<p>Choose 6 items from the menu</p>
+  				<h3>Price : 1000 Baht/Serson</h3>
+                <a class="button_example" href="#">BOOK</a>
+            </div>
+        </li>
+    </ul>
+  </div>
+  <div class="clear"><br /></div>
+  <div class="boxcoures">
+  	<ul>
+    	<li>
+        	<div class="boxcouresleft"><img src="images/coures1.jpg" width="200"/></div>
+            <div class="boxcouresright">
+            	<h2>3. Full day course</h2>
+  				<p>Pick-up time: 08:30-09:00</p>
+  				<p>Time: 10:00-15:00</p>
+  				<p>Choose 6 items from the menu</p>
+  				<h3>Price : 1000 Baht/Serson</h3>
+                <a class="button_example" href="#">BOOK</a>
+            </div>
+        </li>
+        <li>
+        	<div class="boxcouresleft"><img src="images/coures1.jpg" width="200"/></div>
+        	<div class="boxcouresright">
+            	<h2>4. Full day course</h2>
+  				<p>Pick-up time: 08:30-09:00</p>
+  				<p>Time: 10:00-15:00</p>
+  				<p>Choose 6 items from the menu</p>
+  				<h3>Price : 1000 Baht/Serson</h3>
+                <a class="button_example" href="#">BOOK</a>
+            </div>
+        </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<div id="footer">© 2013 CHANG COOKING &amp; RESTAURANT. All rights reserved.</div>
+</body>
+</html>
